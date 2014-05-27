@@ -1,0 +1,21 @@
+{
+  "name": "pew-pew",
+  "version": "0.0.0",
+  "authors": [
+    "Ben Watts <thebenwatts@gmail.com>"
+  ],
+  "description": "yay games",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "Snap.svg": "0.2.0"
+  }
+}

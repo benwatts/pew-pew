@@ -1,0 +1,10 @@
+html, body { background: #222; }
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.game-container {
+  flex: 0 1 auto;
+}
