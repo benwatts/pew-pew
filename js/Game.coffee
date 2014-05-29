@@ -7,18 +7,11 @@ class Game
 
   setupCanvas: ->
     #@stage = Snap(stageSize.width, stageSize.height)
-    $gameContainer = $('<div id="game" class="game-container"></div>').prependTo('body')
-    $gameContainer.css
-      width:  stageSize.width
-      height: stageSize.height
-
     @stage = Snap(stageSize.width, stageSize.height)
     @stage.rect(0, 0, stageSize.width, stageSize.height).attr({fill: 'transparent'})
-    $gameContainer.append(@stage.node) # um..
+    $('#stage-container').append(@stage.node) # um..
     @world = new World(@stage, stageSize)
 
-  # @get: ->
-  #   instance ?= new Game()
 
 
 ###

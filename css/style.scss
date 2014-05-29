@@ -6,10 +6,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  color: #333;
 }
 
 .game-container {
   flex: 0 1 auto;
-  box-shadow: 2px 3px 20px rgba(0,0,0,.2);
-  background: red;
+  box-shadow: 2px 3px 20px rgba(0,0,0,.5);
+}
+
+.row {
+  background: #ccc;
+  padding: 10px;
+}
+
+.header {
+  background: #ccc;
+  text-align: center;
+  padding: 10px;
+  border-bottom: solid 1px #fff;
+}
+.header-title {
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  margin: 0;
 }
