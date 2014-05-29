@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     bower: {
       install: {
         options: {
-          targetDir: './js/lib'
+          targetDir: './dist/js/lib'
         }
       }
     },
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'css/build/style.css': 'css/style.scss'
+          'dist/css/style.css': 'css/style.scss'
         }
       }
     },
@@ -27,14 +27,14 @@ module.exports = function(grunt) {
         options: {
           browsers: "last 2 versions"
         },
-        src:  'css/build/style.css'
+        src:  'dist/css/style.css'
       }
     },
 
     coffee: {
       compile: {
         files: {
-          'js/build/script.js': ['js/*.coffee']
+          'dist/js/script.js': ['js/*.coffee']
         }
       }
     },
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       html: {
-        files: ['game.html']
+        files: ['dist/game.html']
       },
       css: {
         files: ['css/*.scss'],

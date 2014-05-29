@@ -1,6 +1,5 @@
-js/build/*
-css/build/*
-js/lib/*
+dist/css/*
+dist/js/*
 bower_components
 
 
